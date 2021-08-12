@@ -1,0 +1,94 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 28, 2021, 3:10:17 PM
+    Author     : nam
+*/
+
+.pagination{
+  width: 400px;
+  margin-left: 50px;
+}
+.pagination a {
+  display: block;
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+ 
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+ 
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+} 
+
+.active2{
+    color: red;
+}
+.active{
+    background-color: grey;
+}
+.active a{
+    color: black;
+    font-weight: bold;
+}
+.productList .left{
+    margin-left: 5%;
+    width: 20%;
+}
+.productList .left .menu2 ul{
+    list-style-type: none;
+}
+
+.productList .left .title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.productList .right{
+    margin-right: 10%;
+    width: 60%;
+}
+
+.productList .right .row{
+    display: inline-block;
+    padding: 0px;
+    margin-bottom: 0px;
+    line-height: 1.42857143;
+    border-radius: 0px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.productList .card{
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 0px;
+    position: relative;
+    width: 250px;
+    height: 490px;
+    overflow: hidden;
+}
+.productList .card img{
+    width: 250px;
+    height: 250px;
+}
+
+.left2{
+    float: left;
+    width:46%;
+    margin-left: 5px;
+}
+
+
+

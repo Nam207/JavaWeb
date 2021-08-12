@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 25, 2021, 5:05:03 PM
+    Author     : nam
+*/
+.content .row a img{
+    height: 700px;
+    width: 100%;
+}
+
+.content .left{
+    float: left;
+    width: 36%;
+    height: 460px;
+    margin-left: 10%;
+}
+.content .left img{
+    max-width: 100%;
+    height: auto;
+}
+.content .right{
+    float: right;
+    width: 36%;
+    height: 460px;
+    margin-right: 10%;
+}
+.content .right img{
+    max-width: 100%;
+    height: auto;
+}
+.content a{
+    color: black;
+}
+.content a:hover{
+    color: red;
+}
+.title{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.home-buy .title{
+    text-align: center;
+    font-weight: bold;
+}
+.home-buy .left{
+    width: 320px;
+    height: 290px;
+    margin-left: 10%;
+    background-repeat: no-repeat;
+    background-size: 130%;
+}
+.home-buy .middle{
+    width: 320px;
+    height: 290px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 130%;
+    margin-left: 8%;
+}
+.home-buy .right{
+    width: 320px;
+    height: 290px;
+    margin-right: 10%;
+    background-repeat: no-repeat;
+    background-size: 130%;
+}
+.home-buy .list{
+    text-align: center;
+    margin-top: 90px;
+}
+.home-buy a{
+    color: white;
+}
+.home-buy a:hover{
+    color: red;
+}
+
+.home-bSell .title{
+    text-align: center;
+}
+.home-bSell .left{
+    width: 300px;
+    margin-left: 2%;
+    
+}
+.home-bSell .right{
+    width: 300px;
+    margin-right: 2%;  
+    
+}
+.home-bSell .image img{
+    width: 300px;
+    height: 300px;
+}
+.home-bSell .caption{
+    text-align: center;
+}
+.home-bSell .caption .name a{
+    color: black;
+    font-weight: bold;
+}
+.home-bSell .caption .color{
+    font-weight: normal;
+}
+.home-bSell .caption .price{
+    font-weight: bold;
+}
+.home-bSell .caption .name a:hover{
+    color: red;
+}
+
+.infor .left .title{
+    text-align: center;
+}
+
+.infor .left .list a:hover{
+    color: red;
+}
+.infor .right .news-list a:hover{
+    color: red;
+}
+.infor .left{
+    width: 45%;
+    margin-left: 2%;
+}
+.infor .right{
+    width: 45%;
+    margin-right: 2%;
+}
+.left2{
+    float: left;
+    width:46%;
+    margin-left: 5px;
+}
+.infor .list{
+    margin: 100px;
+    padding: 20px;
+    text-align: center;
+}
+.infor .list a{
+    font-size: 23px;  
+}
